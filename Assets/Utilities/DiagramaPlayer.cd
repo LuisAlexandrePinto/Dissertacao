@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Player">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <AssociationLine Name="monsters" Type="Monster" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="2.375" />
+        <Point X="4.292" Y="2.375" />
+        <Point X="4.292" Y="4.562" />
+        <Point X="6.5" Y="4.562" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Squadron" Type="Squadron" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="2.125" />
+        <Point X="4.896" Y="2.125" />
+        <Point X="4.896" Y="3.802" />
+        <Point X="8.625" Y="3.802" />
+        <Point X="8.625" Y="6.5" />
+        <Point X="9" Y="6.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.495" Y="0.039" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Language" Type="LanguageIndex" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="2.5" />
+        <Point X="3.979" Y="2.5" />
+        <Point X="3.979" Y="5.965" />
+        <Point X="5.25" Y="5.965" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Abilities" Type="AbilityData" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.562" />
+        <Point X="5.75" Y="1.562" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="MonsterData" Type="MonsterData" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.938" />
+        <Point X="5.198" Y="1.938" />
+        <Point X="5.198" Y="3.5" />
+        <Point X="12" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="playerData" Type="PlayerData" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.75" />
+        <Point X="5.438" Y="1.75" />
+        <Point X="5.438" Y="2.812" />
+        <Point X="8.75" Y="2.812" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAAEgYAISCAAAAABAAACBQAAAAAABAAQASAAg0AAAAk=</HashCode>
+      <FileName>Assets\Models\Player\Scripts\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playerData" />
+      <Property Name="Squadron" />
+      <Property Name="Language" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="monsters" />
+      <Property Name="Abilities" />
+      <Property Name="MonsterData" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PlayerData">
+    <Position X="8.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QABAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAE=</HashCode>
+      <FileName>Assets\Models\Player\Scripts\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Squadron">
+    <Position X="9" Y="4.75" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAEAAAAAAAAAgAAAAIEAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Models\Player\Scripts\Squadron.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monster" Collapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ETgCMBAwADAAmIAAAImwAgDAAAAIMYAKIAAQAgIAMEE=</HashCode>
+      <FileName>Assets\Models\Monsters\Monster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterData">
+    <Position X="12" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAAABAAAAAAACkAAAQAAIAIAAAAAAAAAgAAQEA=</HashCode>
+      <FileName>Assets\Models\Monsters\MonsterData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbilityData">
+    <Position X="5.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilityData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="LanguageIndex">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAABCAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Models\Player\Scripts\LanguageIndex.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

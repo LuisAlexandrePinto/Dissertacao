@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbilitiesCombosIndex" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQACAAAAABAAAAQAAAAACAAA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilitiesCombosIndex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbilitiesContainer" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAABAAAAAQAEAAAgAAAISAACBAAAQQAAAAAAAA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilitiesContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ability" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAcIAQwYAgqBAEuEMEAIKIICMAEsBMhQgIDYgITxA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\Ability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbilityBranchManager" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEEAAEQCCIBQAAFAAJAgIAACACAAgBgAACECAAAQA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilityBranchManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbilityData" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilityData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbilityPrefabManager">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAARCAAAAAAIQIBAAAAAAAAAIEAAQAEAAAAAAA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilityPrefabManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AbilitiesNameIndex">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAAAIAAAAAIAAAAAAAEEAhn0AgGAQAAAAABA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilitiesNameIndex.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AbilityType">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilityType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ActionType">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAIAgBAgAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\ActionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

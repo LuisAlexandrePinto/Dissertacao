@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="CaptureSceneManager">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <AssociationLine Name="Status" Type="CaptureSceneStatus" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="1.812" />
+        <Point X="4.625" Y="1.812" />
+        <Point X="4.625" Y="4.619" />
+        <Point X="5.75" Y="4.619" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gIgAAAAUACAABAAAAQAAAAAQACAAQAEAAIAAEAAAEAA=</HashCode>
+      <FileName>Assets\Scenes\Capture\CaptureSceneManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Status" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CaptureSceneUIManager" HideInheritanceLine="true">
+    <Position X="5.25" Y="0.5" Width="2.5" />
+    <AssociationLine Name="manager" Type="CaptureSceneManager" FixedFromPoint="true">
+      <Path>
+        <Point X="5.25" Y="1.562" />
+        <Point X="4.25" Y="1.562" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAACAABACCAAAEAABAAAAAAAAEAAAAAGA=</HashCode>
+      <FileName>Assets\Scenes\Capture\CaptureSceneUIManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="manager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OverrideOrb" HideInheritanceLine="true">
+    <Position X="8" Y="0.5" Width="2.75" />
+    <AssociationLine Name="inputStatus" Type="InputStatus" FixedFromPoint="true">
+      <Path>
+        <Point X="10.75" Y="1.688" />
+        <Point X="12" Y="1.688" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEQIAAAABAIBAIAAAABAAgAAAQiIEEAKAQAgADhAAEA=</HashCode>
+      <FileName>Assets\Models\Field Objects\Override Orb\OverrideOrb.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="inputStatus" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="CaptureSceneStatus">
+    <Position X="5.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAABAAAAA=</HashCode>
+      <FileName>Assets\Scenes\Capture\CaptureSceneStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InputStatus">
+    <Position X="12" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAABAAAABAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scenes\Capture\InputStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

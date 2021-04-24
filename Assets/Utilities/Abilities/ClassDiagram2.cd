@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AbilityBranchManager">
+    <Position X="0.5" Y="0.5" Width="4.25" />
+    <AssociationLine Name="abilitiesContainer" Type="AbilitiesContainer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="2.875" />
+        <Point X="6.688" Y="2.875" />
+        <Point X="6.688" Y="4.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="attackAbilities" Type="Ability" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="1.75" />
+        <Point X="7" Y="1.75" />
+        <Point X="7" Y="1.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.219" Y="0.465" Height="0.182" Width="1.876" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="defenseAbilities" Type="Ability" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="2.188" />
+        <Point X="7" Y="2.188" />
+        <Point X="7" Y="1.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.902" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="rogueAbilities" Type="Ability" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="2.562" />
+        <Point X="7" Y="2.562" />
+        <Point X="7" Y="1.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.213" Y="1.267" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="abilityType" Type="AbilityType" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="3.188" />
+        <Point X="5.125" Y="3.188" />
+        <Point X="5.125" Y="6.531" />
+        <Point X="6" Y="6.531" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQEEAAEQCCIBQAAFAAJAgIAACACAAgBgAACECAAAQA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilityBranchManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="abilitiesContainer" />
+      <Field Name="abilityType" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="attackAbilities" />
+      <Field Name="defenseAbilities" />
+      <Field Name="rogueAbilities" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AbilitiesContainer">
+    <Position X="6" Y="4.25" Width="4" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="allAbilities" Type="Ability" FixedToPoint="true">
+      <Path>
+        <Point X="7.812" Y="4.25" />
+        <Point X="7.812" Y="1.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.761" Y="2.66" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEgAAAAABAAAAAQAEAAAgAAAISAACBAAAQQAAAAAAAA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilitiesContainer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="abilitiesData" />
+      <Field Name="allAbilities" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Ability" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AgAAcIAQwYAgqBAEuEMEAIKIICMAEsBMhQgIDYgITxA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\Ability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbilityPrefabManager">
+    <Position X="10.25" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAARCAAAAAAIQIBAAAAAAAAAIEAAQAEAAAAAAA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilityPrefabManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ability" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AbilityData" Collapsed="true">
+    <Position X="9.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilityData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AbilityType" Collapsed="true">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GUI\Scripts\Abilities\AbilityType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
